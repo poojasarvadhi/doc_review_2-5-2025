@@ -14,7 +14,9 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
+   "in_filter": 1,
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Title",
    "reqd": 1
   },
@@ -28,13 +30,16 @@
   {
    "fieldname": "category",
    "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Category",
    "options": "Policy\nProcess\nProposal\nOther"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-02 12:01:06.699713",
+ "modified": "2025-05-02 15:26:14.820594",
  "modified_by": "Administrator",
  "module": "doc_review",
  "name": "Review Document",
