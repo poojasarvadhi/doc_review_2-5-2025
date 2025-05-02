@@ -1,0 +1,25 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Category-Wise Distribution",
+   "width": "Half"
+  },
+  {
+   "chart": "Review Status Distribution",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-05-02 13:45:31.179842",
+ "dashboard_name": "Review Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-05-02 14:10:11.844921",
+ "modified_by": "Administrator",
+ "module": "doc_review",
+ "name": "Review Dashboard",
+ "owner": "Administrator"
+}
