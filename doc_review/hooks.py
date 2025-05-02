@@ -5,15 +5,14 @@ app_description = "description"
 app_email = "sarvadhi@gmail.com"
 app_license = "mit"
 
-
-
-# hooks.py
+ 
 
 scheduler_events = {
     "daily": [
         "doc_review.api.review_document_api.mark_stale_documents"
     ]
 }
+
 # Apps
 # ------------------
 

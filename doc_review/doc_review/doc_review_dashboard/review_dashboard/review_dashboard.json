@@ -8,6 +8,10 @@
   {
    "chart": "Review Status Distribution",
    "width": "Half"
+  },
+  {
+   "chart": "Pending Review",
+   "width": "Half"
   }
  ],
  "creation": "2025-05-02 13:45:31.179842",
@@ -17,7 +21,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "modified": "2025-05-02 14:10:11.844921",
+ "modified": "2025-05-02 15:13:18.151689",
  "modified_by": "Administrator",
  "module": "doc_review",
  "name": "Review Dashboard",
