@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-05-02 13:54:02.423696",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-05-02 13:54:25.057716",
+ "modified_by": "Administrator",
+ "module": "doc_review",
+ "name": "Pending Reviews",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT \n    name, \n    title, \n    category, \n    workflow_state \nFROM \n    `tabReview Document` \nWHERE \n    workflow_state = 'In Review';  -- Replace with your actual \"pending\" state",
+ "ref_doctype": "Review Document",
+ "report_name": "Pending Reviews",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Customer"
+  },
+  {
+   "role": "Auditor"
+  }
+ ],
+ "timeout": 0
+}
