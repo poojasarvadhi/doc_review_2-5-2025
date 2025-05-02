@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-05-02 13:30:38.575859",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-05-02 13:31:43.144199",
+ "modified_by": "Administrator",
+ "module": "doc_review",
+ "name": "Documents by Category",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT \n  category,\n  workflow_state,\n  COUNT(*) as count\nFROM \n  `tabReview Document`\nGROUP BY \n  category, workflow_state\nORDER BY \n  category, workflow_state",
+ "ref_doctype": "Review Document",
+ "report_name": "Documents by Category",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Customer"
+  },
+  {
+   "role": "Auditor"
+  }
+ ],
+ "timeout": 0
+}

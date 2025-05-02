@@ -8,7 +8,6 @@
  "field_order": [
   "title",
   "description",
-  "review_status",
   "category"
  ],
  "fields": [
@@ -27,12 +26,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "review_status",
-   "fieldtype": "Select",
-   "label": "Review Status",
-   "options": "Draft\nIn Review\nApproved\nRejected"
-  },
-  {
    "fieldname": "category",
    "fieldtype": "Select",
    "label": "Category",
@@ -41,7 +34,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-02 11:20:05.619213",
+ "modified": "2025-05-02 12:01:06.699713",
  "modified_by": "Administrator",
  "module": "doc_review",
  "name": "Review Document",
