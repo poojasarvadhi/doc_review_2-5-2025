@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.workflow_state in ['In Review','Approved','Rejected']",
+ "creation": "2025-05-02 12:13:42.550801",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Review Document",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6;\">\n    <h3 style=\"color: #2490ef; margin-bottom: 5px;\">Workflow Status Updated</h3>\n    <p>The status of the document has been changed to:</p>\n    <p><strong style=\"font-size: 1.2em; color: #198754;\">{{ doc.workflow_state }}</strong></p>\n</div>",
+ "message_type": "HTML",
+ "modified": "2025-05-02 12:17:31.864734",
+ "modified_by": "Administrator",
+ "module": "doc_review",
+ "name": "Review notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "workflow_state!=''",
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Auditor"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{doc.name}",
+ "value_changed": "workflow_state"
+}
